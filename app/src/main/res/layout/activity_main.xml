@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="381dp"
+        android:layout_height="699dp"
+        android:background="#E3D9D1"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:visibility="visible">
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAMA"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="radityadaaniis@gmail.com"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karanganyar, 11 Januari 2003"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V3421029"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALAMAT"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Madoh 04/07, Bolon, Colomadu"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="151dp"
+        android:layout_height="221dp"
+        app:srcCompat="@drawable/danis"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TTL"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daaniis Raditya Pramoda Wardani"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
